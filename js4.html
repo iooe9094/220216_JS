@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var arr = ["javascript"];
+        var element = arr[0];
+        arr [1] = 10;
+        arr [2] = element;
+        delete arr[2];
+        document.write("배열 arr의 요소에는[" + arr + "]가 있습니다.<br>");
+        document.write("배열 arr의 길이는 " + arr.length + "입니다.<br>");
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+<!-- 배열 삭제 (delete) -->
+<!-- 배열 안의 해당 값만 삭제되어 ["javascript", 10, (delete됨)]이 남는다 -->
+<!-- 값만 삭제되었기 때문에 길이에는 변화가 없으므로 길이는 3 -->
